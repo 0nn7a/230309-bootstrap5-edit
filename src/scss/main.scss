@@ -1,0 +1,71 @@
+@import 'variable';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  font-family: Sora, Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  box-sizing: border-box;
+  font-family: Sora, Inter, Avenir, Helvetica, Arial, sans-serif;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span {
+    margin: 0;
+  }
+  p {
+    font-size: 0.75rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0.75rem 0;
+  }
+  h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0.25rem 0;
+  }
+  h4 {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  h5 {
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  h6 {
+    font-size: 1rem;
+    transform: scale(0.6) translateX(-35%);
+  }
+
+  ul,
+  li {
+    list-style: none;
+    padding: 0;
+  }
+
+  .light-p {
+    color: $self-dark-gray;
+    font-weight: 300;
+  }
+
+  .cards {
+    height: 100%;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+  }
+}

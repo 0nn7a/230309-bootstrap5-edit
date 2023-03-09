@@ -1,0 +1,106 @@
+@import '../../node_modules/bootstrap/scss/functions';
+
+//self-colors
+$self-light-blue: #e6f5f9;
+$self-blue: #c0e9fe;
+$self-light-green: #edfbef;
+$self-green: #cfffd4;
+$self-light-purple: #f0f4ff;
+$self-purple: #E7E7E9;
+$self-yellow: #f9f8f2;
+$self-orange: #f99307;
+$self-dark-green: #84B6A9;
+$self-gray: #4c4c4c;
+$self-dark: #000000;
+$self-light-gray: #f6f6f6;
+$self-middle-gray: #bebebe;
+$self-dark-gray: #868686;
+
+//colors
+$blue: #c0e9fe;
+$blue-100: tint-color($blue, 80%);
+$blue-200: tint-color($blue, 60%);
+$blue-300: tint-color($blue, 40%);
+$blue-400: tint-color($blue, 20%);
+$blue-500: $blue;
+$blue-600: shade-color($blue, 20%);
+$blue-700: shade-color($blue, 40%);
+$blue-800: shade-color($blue, 60%);
+$blue-900: shade-color($blue, 80%);
+
+$green: #cfffd4;
+$green-100: tint-color($green, 80%);
+$green-200: tint-color($green, 60%);
+$green-300: tint-color($green, 40%);
+$green-400: tint-color($green, 20%);
+$green-500: $green;
+$green-600: shade-color($green, 20%);
+$green-700: shade-color($green, 40%);
+$green-800: shade-color($green, 60%);
+$green-900: shade-color($green, 80%);
+
+$purple: #d3d4ee;
+$purple-100: tint-color($purple, 80%);
+$purple-200: tint-color($purple, 60%);
+$purple-300: tint-color($purple, 40%);
+$purple-400: tint-color($purple, 20%);
+$purple-500: $purple;
+$purple-600: shade-color($purple, 20%);
+$purple-700: shade-color($purple, 40%);
+$purple-800: shade-color($purple, 60%);
+$purple-900: shade-color($purple, 80%);
+$secondary: $purple;
+
+$yellow: #ece8cd;
+$yellow-100: tint-color($yellow, 80%);
+$yellow-200: tint-color($yellow, 60%);
+$yellow-300: tint-color($yellow, 40%);
+$yellow-400: tint-color($yellow, 20%);
+$yellow-500: $yellow;
+$yellow-600: shade-color($yellow, 20%);
+$yellow-700: shade-color($yellow, 40%);
+$yellow-800: shade-color($yellow, 60%);
+$yellow-900: shade-color($yellow, 80%);
+
+//spacer: padding, margin -0 ~ -14
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer * 0.75,
+  4: $spacer,
+  5: $spacer * 1.5,
+  6: $spacer * 2,
+  7: $spacer * 3,
+  8: $spacer * 4,
+  9: $spacer * 6,
+  10: $spacer * 8,
+  11: $spacer * 12,
+  12: $spacer * 16,
+  13: $spacer * 24,
+  14: $spacer * 32,
+);
+
+//font: fs-1 ~ fs-8
+$font-size-base: 1rem;
+
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.5;
+$h4-font-size: $font-size-base * 1.25;
+$h5-font-size: $font-size-base * 1.125;
+$h6-font-size: $font-size-base;
+$h7-font-size: $font-size-base * 0.875;
+$h8-font-size: $font-size-base * 0.75;
+
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+  7: $h7-font-size,
+  8: $h8-font-size,
+);
